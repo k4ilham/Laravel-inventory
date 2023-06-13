@@ -1,7 +1,7 @@
 @extends('layouts.landing.master', ['title' => 'Homepage'])
 
 @section('content')
-    @include('layouts.landing.hero')
+    @include('layouts.landing.hero') 
     <div class="w-full py-6 px-4">
         <div class="container mx-auto">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
